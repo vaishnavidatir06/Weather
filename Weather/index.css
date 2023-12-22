@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+}
+
+.inputs {
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    background: rgb(224, 190, 190);
+    height: 150px;
+}
+
+.inputs input[type="text"] {
+    height: 3rem;
+    width: 18rem;
+    background: #fff; /* White background */
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.inputs input[type="submit"] {
+    height: 3rem;
+    width: 8rem;
+    background: #4CAF50; /* Green background */
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.inputs input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.display {
+    text-align: center;
+    width: 520px;
+    color: #16a864;
+}
+
+.wrapper {
+    margin: 0 9rem;
+    background-color: rgb(165, 219, 241);
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+
+.wrapper h2 {
+    padding: 5px 0;
+    text-align: center;
+    background: #96bbd9; /* Blue background */
+    color: rgb(15, 9, 9);
+}
+
+.wrapper p {
+    margin: 20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: rgb(6, 9, 12);
+    font-size: 23px;
+}
+
+.wrapper h2 span {
+    font-size: 26px;
+    color: rgb(3, 9, 11);
+}
+
+.wrapper p span {
+    color: #3681ba;
+    font-size: 25px;
+}
